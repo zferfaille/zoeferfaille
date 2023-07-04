@@ -1,0 +1,4 @@
+<iframe src="contact.html" id="contact_div"></iframe>
+	  <iframe src="en_ce_moment.html" id="en_ce_moment_div"></iframe>
+	  <iframe src="competences.html" id="competences_div"></iframe>
+	  <iframe src="realisations.html" id="realisations_div"></iframe>
