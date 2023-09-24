@@ -7,14 +7,7 @@ body {
   height: 100vh;
 }
 
-.selected-items-box div {
-  position: absolute;
-  top: 0;
-  left: 3;
-  border: none;
-  font-family: 'Montserrat';
-  
-}
+
 
 .contenu_contact {
   font-family: 'Montserrat';
@@ -50,6 +43,7 @@ body {
   padding: 20px;
   float: left;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .sidebar ul {
@@ -89,11 +83,23 @@ body {
   background-color: #61e1d2;
 }
 
-/* Styles pour le contenu principal */
-.content {
-  margin-left: 220px; /* Marge à gauche pour le contenu principal */
-  padding: 20px;
-}
+  .content-box {
+    margin-left: 220px; /* Pour laisser de l'espace pour les onglets */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 250px;
+    height: 68%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 73.5%; 
+    max-height:  68%; /* Hauteur maximale de l'onglet */
+    overflow-y: auto; /* Ajouter le défilement vertical lorsque nécessaire */
+  }
+  
 
 .presentation {
   flex-grow: 1;
@@ -115,18 +121,6 @@ a {
   margin-left: 30px;
 }
 
-.selected-items-box {
-  position: relative;
-  border-radius: 5px;
-  background-color: transparent;
-  padding: 10px;
-  margin-top: 30px;
-  margin-right: 20px;
-  margin-left: 250px;
-  height: 68%;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  width: 73.5%; /* La largeur est calculée en soustrayant la marge gauche et la marge droite de la header box */
-}
 
 .sidebar li.active a {
   font-weight: bold;  
@@ -151,11 +145,12 @@ a {
 }
 
 .titre {
+  position: sticky;
   margin-left: 320px;
   color: #09456d;
   margin-bottom: 20px;
   font-size: 30px;
-  position: sticky;
+
 }
 
 #competences_div {
