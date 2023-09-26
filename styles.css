@@ -146,7 +146,8 @@ a {
 
 .titre {
   position: sticky;
-  margin-left: 320px;
+  text-align: center; 
+
   color: #09456d;
   margin-bottom: 20px;
   font-size: 30px;
@@ -233,10 +234,33 @@ td {
 #logo_isa {
   width: 200px;
   height: 70px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
 .cv_div {
   max-width: 500px;
   max-height: 500px;
+}
+
+.keyword-buttons {
+  margin-top: 10px;
+}
+
+.keyword-button {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background-color: #1acece; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    width: auto; /* Rétablissez la largeur automatique pour que la div s'adapte à la taille du contenu */
+    margin-top: 10px; /* Ajoutez une marge supérieure pour l'espacement */
+  }
+
+  /* Vous pouvez également ajuster d'autres styles ici si nécessaire */
 }
