@@ -269,3 +269,9 @@ td {
   /* Vous pouvez également ajuster d'autres styles ici si nécessaire */
 }
 
+.image-container {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
+}
