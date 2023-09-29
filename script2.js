@@ -6,14 +6,18 @@ var tabContents = {
   <img src="inp.png" alt="logoISA" id="logo_isa"/>
 
 
-      <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de février pour une durée de 6 mois.
-      Je souhaiterais pouvoir effectuer mon stage dans l'UX Design afin d'approfondir mes connaissances dans la CCU :
+      <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de février 2024 pour une durée de 6 mois.
+      Très créative et curieuse des nouvelles technologies, je souhaiterais réaliser mon stage dans l'UX Design. J'ai eu l'opportunité de réaliser plusieurs projets très stimulants dans ce domaine et je souhaiterais réellement approfondir mes connaissances :
       
        <br><br>
       ● Maquettage<br>
       ● Conception d'IHM<br>
       ● Requête et analyse des besoins utilisateurs<br>
-      ● Présentation des résultats<br>
+      ● Analyse des résultats<br>
+      ● Idéation et proposition de solutions<br> <br>
+
+      J'ai également une apétence pour l'informatique et coder ne me fait pas peur !
+      
       </p>
 `,
 'tab2': `
@@ -22,8 +26,8 @@ var tabContents = {
 <table class="table table-bordered">
 <tbody>
   <tr>
-    <td class="card">
-      <img src="logo_stage.png" alt="Image de la carte" class="card-img">
+    <td class="card"> <div class="image-container">
+      <img src="logo_stage.png" alt="Image de la carte" class="card-img"> </div>
 
         <h5 class="card-title">Stage de Recherche en comportement alimentaire mai - septembre 2023</h5>
         <p class="card-text">
@@ -39,6 +43,8 @@ var tabContents = {
           <span class="keyword-button">#Recherche</span>
           <span class="keyword-button">#FoodScience</span>
           <span class="keyword-button">#Physiologie</span>
+          <span class="keyword-button">#Phyton</span>
+          <span class="keyword-button">#RStudio</span>
         </div>
 
     </td>
@@ -80,6 +86,7 @@ var tabContents = {
         <span class="keyword-button">#Recherche</span>
         <span class="keyword-button">#SciencesCognitives</span>
         <span class="keyword-button">#PerceptionMotricite</span>
+        <span class="keyword-button">#LaTeX</span>
       </div>
     </td>
   </tr>
@@ -100,6 +107,7 @@ var tabContents = {
           <span class="keyword-button">#UXDesign</span>
           <span class="keyword-button">#Maquettage</span>
           <span class="keyword-button">#Figma</span>
+          <span class="keyword-button">#GestionProjet</span>
         </div>
     </td>
   </tr>
@@ -120,6 +128,8 @@ var tabContents = {
           <span class="keyword-button">#UX</span>
           <span class="keyword-button">#Développement</span>
           <span class="keyword-button">#CCU</span>
+          <span class="keyword-button">#GestionProjet</span>
+          <span class="keyword-button">#HTML</span>
       </div>
     </td>
   </tr>
@@ -138,6 +148,7 @@ var tabContents = {
         <span class="keyword-button">#SciencesCognitives</span>
         <span class="keyword-button">#CCU</span>
         <span class="keyword-button">#Recherche</span>
+        <span class="keyword-button">#Psychopy</span>
     </div>
     </td>
   </tr>
@@ -148,7 +159,7 @@ var tabContents = {
 <tbody>
   <tr>
     <td class="card">
-      <img src="logoMIXSC.png" alt="Image de la carte" class="card-img">
+      <img src="logomixsc.png" alt="Image de la carte" class="card-img">
 
         <h5 class="card-title">M.I.x.S.C - 2021-2022</h5>
         <p class="card-text">Notre projet avec un client extérieur était d'étudier le lien entre les émotions et la musique. Nous avons donc créé une musique utilisant les battements bi-neuronaux, permettant la relaxation. Pour mesurer le niveau de relaxation; nous avons utilisé le casque EEG EMOTIV. Nous avons ainsi réalisé un état de l'art, crée une musique ainsi qu'un protocole expérimental. Enfin nous avons traité et analysé les données. </p>
