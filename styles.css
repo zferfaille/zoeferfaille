@@ -270,8 +270,8 @@ td {
 }
 
 .image-container {
-  display: flex;
+  display: flexbox;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
 }

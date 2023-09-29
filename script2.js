@@ -2,8 +2,8 @@
 var tabContents = {
   'tab1': `
   <h1 class="titre">En ce moment</h1>   
-    		
-  <img src="inp.png" alt="logoISA" id="logo_isa"/>
+  <div class="image-container">
+  <img src="inp.png" alt="logoISA" id="logo_isa"/> </div>
 
 
       <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de février 2024 pour une durée de 6 mois.
@@ -26,8 +26,8 @@ var tabContents = {
 <table class="table table-bordered">
 <tbody>
   <tr>
-    <td class="card"> <div class="image-container">
-      <img src="logo_stage.png" alt="Image de la carte" class="card-img"> </div>
+    <td class="card"> 
+      <img src="logo_stage.png" alt="Image de la carte" class="card-img"> 
 
         <h5 class="card-title">Stage de Recherche en comportement alimentaire mai - septembre 2023</h5>
         <p class="card-text">
@@ -159,7 +159,7 @@ var tabContents = {
 <tbody>
   <tr>
     <td class="card">
-      <img src="logomixsc.png" alt="Image de la carte" class="card-img">
+      <img src="mixsc.png" alt="Image de la carte" class="card-img">
 
         <h5 class="card-title">M.I.x.S.C - 2021-2022</h5>
         <p class="card-text">Notre projet avec un client extérieur était d'étudier le lien entre les émotions et la musique. Nous avons donc créé une musique utilisant les battements bi-neuronaux, permettant la relaxation. Pour mesurer le niveau de relaxation; nous avons utilisé le casque EEG EMOTIV. Nous avons ainsi réalisé un état de l'art, crée une musique ainsi qu'un protocole expérimental. Enfin nous avons traité et analysé les données. </p>
