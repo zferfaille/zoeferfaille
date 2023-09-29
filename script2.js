@@ -2,11 +2,7 @@
 var tabContents = {
   'tab1': `
   <h1 class="titre">En ce moment</h1>   
-  <div class="image-container">
-  <img src="inp.png" alt="logoISA" id="logo_isa"/> </div>
-
-
-      <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de février 2024 pour une durée de 6 mois.
+       <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de <strong> février 2024 </strong> pour une durée de <strong> 6 mois </strong>.
       Très créative et curieuse des nouvelles technologies, je souhaiterais réaliser mon stage dans l'UX Design. J'ai eu l'opportunité de réaliser plusieurs projets très stimulants dans ce domaine et je souhaiterais réellement approfondir mes connaissances :
       
        <br><br>
