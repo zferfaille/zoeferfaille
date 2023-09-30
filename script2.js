@@ -6,7 +6,7 @@ var tabContents = {
 
 
       <p id="p_stage"> Effectuant ma dernière année à l'école, je cherche activement mon stage de fin d'étude qui débutera au mois de <strong> février 2024 </strong> pour une durée de <strong> 6 mois </strong>.
-      Très créative et curieuse des nouvelles technologies, je souhaiterais réaliser mon stage dans l'UX Design. J'ai eu l'opportunité de réaliser plusieurs projets très stimulants dans ce domaine et je souhaiterais réellement approfondir mes connaissances :
+      Très créative et curieuse des nouvelles technologies, je souhaiterais réaliser mon stage dans l'UX Design. J'ai eu l'opportunité de réaliser plusieurs projets très stimulants dans ce domaine et je souhaiterais vivement approfondir mes connaissances :
       
        <br><br>
       ● Maquettage<br>
@@ -15,7 +15,7 @@ var tabContents = {
       ● Analyse des résultats<br>
       ● Idéation et proposition de solutions<br> <br>
 
-      J'ai également une apétence pour l'informatique et coder ne me fait pas peur !
+      J'ai également une appétence pour l'informatique et coder ne me fait pas peur !
       
       </p>
 `,
