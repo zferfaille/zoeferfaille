@@ -33,7 +33,7 @@ var tabContents = {
         
         J'ai occupé le poste de chargée de projet de recherche en comportement alimentaire. Le projet était un Appel à Manifestation d'Intérêt de la Métropole Lilloise, en collaboration avec JUNIA et l'Anthropo-Lab.
             JUNIA développe une expertise et une offre autour de l'analyse sensorielle, et l’Anthropo-Lab est un laboratoire d'anthropologie expérimentale qui vise à comprendre et faire évoluer les comportements humains. Mon rôle etait d’identifier des marqueurs physiologiques qui traduisent l’appréciation et les émotions lors d’un acte de consommation.
-            Mes missions étaient alors de réaliser une revue de littérature, de mettre en place un protocole expérimental, d'analyser les résultats et de les présenter.
+            Mes missions étaient alors de réaliser une revue de littérature, de mettre en place un protocole expérimental dans une salle immersive, d'analyser les résultats et de les présenter.
 
         </p>
         <a href="https://docs.google.com/document/d/1ZViDLfTyY3a9MSZ0Gjz8YBHy8ijyGiYGfdVEjjE9QxQ/edit?usp=sharing">Voir le rapport</a>
@@ -41,9 +41,11 @@ var tabContents = {
         <div class="keyword-buttons">
           <span class="keyword-button">#Recherche</span>
           <span class="keyword-button">#FoodScience</span>
+          <span class="keyword-button">#SalleImmersive</span>
           <span class="keyword-button">#Physiologie</span>
           <span class="keyword-button">#Phyton</span>
           <span class="keyword-button">#RStudio</span>
+          
         </div>
 
     </td>
