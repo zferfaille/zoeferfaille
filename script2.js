@@ -160,7 +160,7 @@ var tabContents = {
 <tbody>
   <tr>
     <td class="card">
-      <img src="mixsc.png" alt="Image de la carte" class="card-img">
+      <img src="stress.jpg" alt="Image de la carte" class="card-img">
 
         <h5 class="card-title">M.I.x.S.C - 2021-2022</h5>
         <p class="card-text">Notre projet avec un client extérieur était d'étudier le lien entre les émotions et la musique. Nous avons donc créé une musique utilisant les battements bi-neuronaux, permettant la relaxation. Pour mesurer le niveau de relaxation; nous avons utilisé le casque EEG EMOTIV. Nous avons ainsi réalisé un état de l'art, crée une musique ainsi qu'un protocole expérimental. Enfin nous avons traité et analysé les données. </p>
@@ -194,18 +194,8 @@ var tabContents = {
       </tbody>
   </table>
 `,
+
 'tab4': `
-  <h1 class="titre">Contact</h1>
-  <strong>Adresse mail :</strong>
-  <span class="email">zferfaille@ensc.fr</span>
-  <p>
-      <strong>Linkedin :</strong>
-      <a href="https://www.linkedin.com/in/zo%C3%A9-ferfaille/" target="_blank" id="in">
-          <img src="inn.png" alt="profil" id="logo_in"/>
-      </a>
-  </p>
-`,
-'tab5': `
 <img src="cv_portfolio.png" alt="profil"  width="1100" height="1500" />
 `,
   };
@@ -242,7 +232,6 @@ var tabContents = {
     // Retirer la classe active des autres onglets
     document.getElementById('competences').parentNode.classList.remove('active');
     document.getElementById('realisations').parentNode.classList.remove('active');
-    document.getElementById('contact').parentNode.classList.remove('active');
     document.getElementById('cv').parentNode.classList.remove('active');
 });
 
@@ -253,7 +242,6 @@ document.getElementById('realisations').addEventListener('click', function() {
 
     document.getElementById('competences').parentNode.classList.remove('active');
     document.getElementById('en_ce_moment').parentNode.classList.remove('active');
-    document.getElementById('contact').parentNode.classList.remove('active');
     document.getElementById('cv').parentNode.classList.remove('active');
 
 });
@@ -265,7 +253,6 @@ document.getElementById('competences').addEventListener('click', function() {
 
     document.getElementById('realisations').parentNode.classList.remove('active');
     document.getElementById('en_ce_moment').parentNode.classList.remove('active');
-    document.getElementById('contact').parentNode.classList.remove('active');
     document.getElementById('cv').parentNode.classList.remove('active');
 
 
@@ -273,27 +260,13 @@ document.getElementById('competences').addEventListener('click', function() {
 
 
 
-document.getElementById('contact').addEventListener('click', function() {
-  
-    document.getElementById('contact').parentNode.classList.add('active');
-
-    document.getElementById('realisations').parentNode.classList.remove('active');
-    document.getElementById('en_ce_moment').parentNode.classList.remove('active');
-    document.getElementById('competences').parentNode.classList.remove('active');
-    document.getElementById('cv').parentNode.classList.remove('active');
-
-
-});
 
 
 document.getElementById('cv').addEventListener('click', function() {
   
   document.getElementById('cv').parentNode.classList.add('active');
-
   document.getElementById('realisations').parentNode.classList.remove('active');
   document.getElementById('en_ce_moment').parentNode.classList.remove('active');
   document.getElementById('competences').parentNode.classList.remove('active');
-  document.getElementById('contact').parentNode.classList.remove('active');
-
 
 });

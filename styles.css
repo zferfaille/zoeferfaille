@@ -1,6 +1,6 @@
 
 body {
-  background-color: #eefdff;
+  background-color: #cff8f7;
   font-family: 'Montserrat';
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body {
 @media(min-width:1200px)
 {
   .content-box{
-    width: 73.5%; 
+    width: 81%; 
     height: 68%;
   }
 }
@@ -25,31 +25,35 @@ body {
   background-size: cover;
   padding: 6px;
   padding-left: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 90%;
   display: flex;
-  align-items: center;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  justify-content: space-between; /* Align to left and right */
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  margin:auto 20px;
+  border-radius: 10px;
 }
 
 .header-box .logo {
   text-decoration: none;
   color: #333;
+  
+  
 }
 
 #in {
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 /* Styles pour la barre de navigation sur le côté gauche */
 .sidebar {
   background-color: transparent;
-  width: 200px; /* Largeur de la barre de navigation */
+  width: 200px;
   padding: 20px;
   float: left;
   margin-top: 10px;
+  margin: auto;
   cursor: pointer;
+  justify-content: space-between;
 }
 
 .sidebar ul {
@@ -62,47 +66,52 @@ body {
   margin-bottom: 10px;
   padding: 10px; /* Ajouter du padding pour créer une boîte autour de chaque élément */
   background-color: #b5dde0; /* Couleur de fond pour les boîtes */
-  border-radius: 5px; /* Ajouter un arrondi aux coins des boîtes si souhaité */
+  border-radius: 10px; /* Ajouter un arrondi aux coins des boîtes si souhaité */
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar ul li a {
   display: block;
-  color: #333;
   text-decoration: none;
   padding: 5px;
+
 }
 
 /* CSS */
 /* Couleur de fond pour les onglets non actifs */
 .sidebar ul li:not(.active) {
-  background-color: #FEFEFE; 
+  background-color: #FEFEFE;
+  color:black;
 }
 
 /* Couleur de fond pour les onglets actifs */
 .sidebar ul li.active {
-  background-color: #53d3e9; 
+  background-color: #66ccb9;
+  color: white !important; /* Texte blanc pour les onglets actifs */
 }
 
 /* Couleur de fond pour les onglets non actifs lorsqu'ils sont survolés */
 .sidebar ul li:not(.active):hover {
-  background-color: #61e1d2;
+  background-color: #bbe8e1;
+  color: black; /* Texte noir pour les onglets non actifs au survol */
 }
 
-  .content-box {
-    margin-left: 220px; /* Pour laisser de l'espace pour les onglets */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: transparent;
-    padding: 10px;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 250px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    max-height:  68%; /* Hauteur maximale de l'onglet */
-    overflow-y: auto; /* Ajouter le défilement vertical lorsque nécessaire */
-  }
+
+
+
+.content-box {
+  margin-left: 220px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  justify-content: space-between;
+
+}
   
 
 .presentation {
@@ -121,7 +130,7 @@ a {
 
 .header-box .photo_profil img {
   width: 100px;
-  border-radius: 50%;
+  border-radius: 10px;
   margin-left: 30px;
 }
 
@@ -181,7 +190,7 @@ td {
 }
 
 th {
-  background-color: #61e1d2;
+  background-color: #66ccb9;
   font-weight: bold;
 }
 
@@ -254,16 +263,17 @@ td {
   display: inline-block;
   margin-right: 5px;
   padding: 3px 8px;
-  border-radius: 20px;
-  background-color: #1acece; /* Couleur de fond */
+  border-radius: 10px;
+  background-color: #66ccb9; /* Couleur de fond */
   color: #fff; /* Couleur du texte */
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .content-box {
     width: auto; /* Rétablissez la largeur automatique pour que la div s'adapte à la taille du contenu */
     margin-top: 10px; /* Ajoutez une marge supérieure pour l'espacement */
+    margin-right: 20px;
   }
 
   /* Vous pouvez également ajuster d'autres styles ici si nécessaire */
