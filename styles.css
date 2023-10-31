@@ -273,7 +273,7 @@ td {
   .content-box {
     width: auto; /* Rétablissez la largeur automatique pour que la div s'adapte à la taille du contenu */
     margin-top: 10px; /* Ajoutez une marge supérieure pour l'espacement */
-    margin-right: 20px;
+   
   }
 
   /* Vous pouvez également ajuster d'autres styles ici si nécessaire */
